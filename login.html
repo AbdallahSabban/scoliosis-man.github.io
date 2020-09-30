@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GIS-Login/Signup</title>
+    <meta charset="UTF-8">
+
+    <meta name="robots" content="none">
+
+    <!-- add link later-->
+    <base href="" target="_self">
+
+    <!-- linking to css external styling file -->
+    <link rel="stylesheet" href="styling.css"/>
+</head>
+<body>
+<a id="top"></a>
+<div class="header">
+    <div class="inner-header">
+        <div class="logo-container">
+            <a href="index.html" ><img src="logo.png"  alt="GIS" class="logo"></a>
+        </div>
+        <ul class="nav">
+            <li><a href="" style="color:black">&bull; MAPS</a></li>
+            <li><a href="" style="color:black">&bull; RESOURCES</a></li>
+            <li> <a href="" style="color:black">&bull; EVENTS</a></li>
+            <li><a href="" style="color:black">&bull; PRODUCTS</a></li>
+            <li> <a href="login.html" style="color:black"><b>login/signup</b></a></li>
+        </ul>
+
+    </div>
+</div>
+
+<table class="table" >
+    <tr class="table-row">
+
+        <!-- first cell which contains login form -->
+        <td style="border-right:2px ridge black">
+            <form method="get" >
+            <fieldset>
+                <legend>Login</legend>
+                <p>
+                    <label>Email: </label>
+                    <input type="text" name="email"/>
+                </p>
+                <p>
+                    <label>Password: </label>
+                    <input type="text" name="password"/>
+                </p>
+                <input type="submit" style="margin:50px; padding:5px"/>
+            </fieldset>
+        </form>
+
+            <!-- second cell contains signup form -->
+        </td>
+        <td style="border-left:2px ridge black">
+            <form method="get" >
+                <fieldset>
+                    <legend>Signup</legend>
+                    <p>
+                        <label>First name: </label>
+                        <input type="text" name="fname"/>
+                    </p>
+                    <p>
+                        <label>Last name: </label>
+                        <input type="text" name="lname"/>
+                    </p>
+                    <p>
+                        <label>Email: </label>
+                        <input type="text" name="email"/>
+                    </p>
+                    <p>
+                        <label>Password: </label>
+                        <input type="text" name="password"/>
+                    </p>
+                    <p>
+                        <label>Favorite cities: </label>
+                        <br/>
+                        <input type="checkbox" name="city" value="jeddah" style="margin-right:10px"><span style="font-size:22px">Jeddah</span><br/>
+                        <input type="checkbox" name="city" value="riyadh" style="margin-right:10px"><span style="font-size:22px">Riyadh</span><br/>
+                        <input type="checkbox" name="city" value="dammam" style="margin-right:10px"><span style="font-size:22px">Dammam</span><br/>
+                    </p>
+                    <input type="submit" style="margin:50px; padding:5px"/>
+                </fieldset>
+            </form>
+
+        </td>
+    </tr>
+</table>
+
+
+
+<footer class="footer">
+    <a href="#top" target="_self"><img src="arrow.png"  alt="arrow up"></a>
+    <a href="https://drive.google.com/drive/folders/1pxk3yUhPAe1f6sejnDPWKFpZKGx4y9bs?usp=sharing" target="_blank">LINK TO VALIDATOR SCREENSHOTS</a>
+</footer>
+
+</body>
+</html>
